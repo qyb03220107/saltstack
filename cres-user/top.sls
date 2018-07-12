@@ -1,0 +1,3 @@
+dev:
+  '*':
+    - cres-user
