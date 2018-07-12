@@ -1,0 +1,8 @@
+Salt Version:
+  Salt: 2018.3.2
+  这个主要是安装Zabbix的客户端，Zabbix的服务端的版本为3.4.9
+  客户端指向服务端的ip地址是写在配置文件里面的，需要自己修改
+salt的环境是在以下目录,文件包的名字是zabbix，直接修改为test的可以了:
+file_roots:
+test:
+  - /srv/salt/test
